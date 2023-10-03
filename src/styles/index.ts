@@ -7,6 +7,7 @@ const EstiloGlobal = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: Raoboto, sans-serif;
+  list-style: none;
 }
 `
 export const Container = styled.div`

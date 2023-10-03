@@ -6,16 +6,15 @@ const BarraLateral = () => (
     <div>
       <S.Campo type="text" placeholder="Buscar"></S.Campo>
       <S.Filtros>
-        <FiltroCard></FiltroCard>
-        <FiltroCard></FiltroCard>
-        <FiltroCard></FiltroCard>
-        <FiltroCard></FiltroCard>
-        <FiltroCard></FiltroCard>
-        <FiltroCard ativo></FiltroCard>
+        <FiltroCard legenda="pendentes" contador={1}></FiltroCard>
+        <FiltroCard legenda="concluidas" contador={2}></FiltroCard>
+        <FiltroCard legenda="urgentes" contador={3}></FiltroCard>
+        <FiltroCard legenda="importantes" contador={4}></FiltroCard>
+        <FiltroCard legenda="normal" contador={5}></FiltroCard>
+        <FiltroCard legenda="todas" contador={10} ativo></FiltroCard>
       </S.Filtros>
     </div>
   </S.Aside>
 )
 
 export default BarraLateral
-
