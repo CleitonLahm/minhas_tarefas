@@ -1,0 +1,3 @@
+type FiltroState = {
+  termo: string
+}
